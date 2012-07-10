@@ -4,7 +4,17 @@
   <artifactId>j2koji</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Java Brew/Koji API</name>
-  
+  <repositories>
+	<repository>
+		<id>JBoss</id>
+		<url>https://repository.jboss.org/nexus/content/groups/public/</url>
+	</repository>
+	<repository>
+		<id>Apache</id>
+		<url>http://repository.apache.org</url>
+	</repository>
+  </repositories>
+	
   <dependencies>
     <dependency>
       <groupId>org.apache.xmlrpc</groupId>
