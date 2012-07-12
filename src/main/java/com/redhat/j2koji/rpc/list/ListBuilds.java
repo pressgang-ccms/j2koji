@@ -59,10 +59,9 @@ public class ListBuilds implements KojiMethod
 	 * @return A {@code KojiBuild} matching the ID, or null if the returned hash does
 	 *         not contain a match
 	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
 	 */
 	@SuppressWarnings("unchecked")
-	public List<KojiBuild> getBuilds() throws InstantiationException, IllegalAccessException
+	public List<KojiBuild> getBuilds() throws IllegalAccessException
 	{
 		final List<KojiBuild> result = new ArrayList<KojiBuild>();
 

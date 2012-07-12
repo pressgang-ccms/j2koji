@@ -32,7 +32,7 @@ public class KojiUserSearch extends KojiSearchBase<KojiUser>
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<KojiUser> getResults() throws InstantiationException, IllegalAccessException
+	public List<KojiUser> getResults() throws IllegalAccessException
 	{
 		final List<KojiUser> result = new ArrayList<KojiUser>();
 

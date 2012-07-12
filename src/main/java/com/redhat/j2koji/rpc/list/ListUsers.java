@@ -47,10 +47,9 @@ public class ListUsers implements KojiMethod
 	 * @return A {@code KojiPackage} matching the ID, or null if the returned hash does
 	 *         not contain a match
 	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
 	 */
 	@SuppressWarnings("unchecked")
-	public List<KojiPackage> getPackages() throws InstantiationException, IllegalAccessException
+	public List<KojiPackage> getPackages() throws IllegalAccessException
 	{
 		final List<KojiPackage> result = new ArrayList<KojiPackage>();
 

@@ -52,9 +52,8 @@ public class GetKojiUser implements KojiMethod
 	 * @return A {@code KojiBuild} matching the ID, or null if the returned hash does
 	 *         not contain a match
 	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
 	 */
-	public KojiUser getUser() throws InstantiationException, IllegalAccessException
+	public KojiUser getUser() throws IllegalAccessException
 	{
 		KojiUser result = null;
 		result = new KojiUserFactory().createUser(hash);

@@ -51,7 +51,6 @@ public abstract class KojiSearchBase<T> implements KojiMethod
 	 * @return A list of {@code T} matching the ID, or null if the returned hash does
 	 *         not contain a match
 	 * @throws IllegalAccessException 
-	 * @throws InstantiationException 
 	 */
-	public abstract List<T> getResults() throws InstantiationException, IllegalAccessException;
+	public abstract List<T> getResults() throws IllegalAccessException;
 }
