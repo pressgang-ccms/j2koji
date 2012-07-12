@@ -46,9 +46,8 @@ public class GetKojiPackage implements KojiMethod
 	 * 
 	 * @return A {@code KojiPackage} matching the ID, or null if the returned hash does
 	 *         not contain a match
-	 * @throws IllegalAccessException 
 	 */
-	public KojiPackage getPackage() throws InstantiationException, IllegalAccessException
+	public KojiPackage getPackage()
 	{
 		KojiPackage result = null;
 		result = new KojiPackageFactory().createPackage(hash);

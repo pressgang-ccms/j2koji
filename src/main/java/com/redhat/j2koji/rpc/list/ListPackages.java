@@ -58,10 +58,9 @@ public class ListPackages implements KojiMethod
 	 * 
 	 * @return A {@code KojiPackage} matching the ID, or null if the returned hash does
 	 *         not contain a match
-	 * @throws IllegalAccessException 
 	 */
 	@SuppressWarnings("unchecked")
-	public List<KojiPackage> getPackages() throws IllegalAccessException
+	public List<KojiPackage> getPackages()
 	{
 		final List<KojiPackage> result = new ArrayList<KojiPackage>();
 

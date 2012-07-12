@@ -16,9 +16,8 @@ public class KojiBuildFactory
 	 *            A {@code Map<Object, Object>} describing the internal
 	 *            structure of a package.
 	 * @return A new {@code KojiBuild} object.
-	 * @throws IllegalAccessException 
 	 */
-	public KojiBuild createBuild(final Map<Object, Object> properties) throws IllegalAccessException
+	public KojiBuild createBuild(final Map<Object, Object> properties)
 	{
 		final Map<String, Object> copy = new HashMap<String, Object>();
 		for (final Object key : properties.keySet())

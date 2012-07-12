@@ -17,9 +17,8 @@ public class KojiUserFactory
 	 *            A {@code Map<Object, Object>} describing the internal
 	 *            structure of a package.
 	 * @return A new {@code KojiUser} object.
-	 * @throws IllegalAccessException 
 	 */
-	public KojiUser createUser(final Map<Object, Object> properties) throws IllegalAccessException
+	public KojiUser createUser(final Map<Object, Object> properties)
 	{
 		final Map<String, Object> copy = new HashMap<String, Object>();
 		for (final Object key : properties.keySet())
@@ -37,9 +36,8 @@ public class KojiUserFactory
 	 * 
 	 * @param username The name of the user.
 	 * @return A new {@code KojiUser} object.
-	 * @throws IllegalAccessException 
 	 */
-	public KojiUser createUser(final String username) throws IllegalAccessException
+	public KojiUser createUser(final String username)
 	{
 		final KojiUser user = new KojiUser();
 		final Map<String, Object> params = new HashMap<String, Object>();

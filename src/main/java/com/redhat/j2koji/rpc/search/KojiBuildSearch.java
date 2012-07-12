@@ -40,7 +40,7 @@ public class KojiBuildSearch extends KojiSearchBase<KojiBuild>
 
 	@SuppressWarnings("unchecked")
 	@Override
-	public List<KojiBuild> getResults() throws IllegalAccessException
+	public List<KojiBuild> getResults()
 	{
 		final List<KojiBuild> result = new ArrayList<KojiBuild>();
 

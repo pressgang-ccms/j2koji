@@ -60,9 +60,8 @@ public class GetKojiBuild implements KojiMethod
 	 * 
 	 * @return A {@code KojiBuild} matching the ID, or null if the returned hash does
 	 *         not contain a match
-	 * @throws IllegalAccessException 
 	 */
-	public KojiBuild getBuild() throws IllegalAccessException
+	public KojiBuild getBuild()
 	{
 		KojiBuild result = null;
 		result = new KojiBuildFactory().createBuild(hash);
